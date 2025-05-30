@@ -8,7 +8,11 @@
 ![LangGraph](https://img.shields.io/badge/📊_LangGraph-4B8BF5?style=for-the-badge)
 ![Llama](https://img.shields.io/badge/🦙_Llama_3.2-FF6F61?style=for-the-badge)
 
-<img src="https://i.imgur.com/YoITncm.png" alt="AI Agents Banner" width="700">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/abuzar01440/AI-agents-/assets/raw/main/images/ai_agents_banner_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/abuzar01440/AI-agents-/assets/raw/main/images/ai_agents_banner_light.png">
+  <img alt="AI Agents Banner" src="https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/langchain_diagram.png" width="700">
+</picture>
 
 </div>
 
@@ -40,7 +44,11 @@ This repository demonstrates a collection of **AI Agents** built using the power
 The agents can reason through problems, reflect on their own performance, and continuously improve through feedback loops. All implementations are designed to run seamlessly on the **Kaggle** platform, making advanced AI techniques accessible without requiring expensive local hardware.
 
 <div align="center">
-  <img src="https://i.imgur.com/lEA4S6Z.png" width="500" alt="Agent Workflow">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/agent_flowchart_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/agent_flowchart.png">
+    <img alt="Agent Workflow" src="https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/agent_flowchart.png" width="500">
+  </picture>
 </div>
 
 ---
@@ -49,7 +57,7 @@ The agents can reason through problems, reflect on their own performance, and co
 
 <table align="center">
   <tr>
-    <td align="center"><img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"></td>
+    <td align="center"><img width="50" src="https://raw.githubusercontent.com/python/cpython/main/PC/icons/logox128.png"></td>
     <td><b>Python 3.x</b><br>The foundation of our implementation, providing the flexibility and ecosystem needed for AI development.</td>
   </tr>
   <tr>
@@ -167,7 +175,10 @@ Our agents follow a sophisticated architecture that combines the best practices 
 ## 💻 Running on Kaggle
 
 <div align="center">
-  <img src="https://i.imgur.com/gXdFZLV.png" width="600" alt="Kaggle Environment">
+  <picture>
+    <source srcset="https://www.kaggle.com/static/images/kaggle-logo-transparent-300.png">
+    <img alt="Kaggle Environment" src="https://www.kaggle.com/static/images/kaggle-logo-transparent-300.png" width="300">
+  </picture>
 </div>
 
 This project is specifically designed to run on Kaggle, leveraging their:
@@ -179,10 +190,10 @@ This project is specifically designed to run on Kaggle, leveraging their:
 
 ### Quick Start on Kaggle
 
-1. Fork this repository or download the notebooks
-2. Upload to a new Kaggle notebook
-3. Select GPU accelerator (T4 recommended)
-4. Run the cells to see the agents in action!
+1. 📥 Fork this repository or download the notebooks
+2. 📤 Upload to a new Kaggle notebook
+3. 🖥️ Select GPU accelerator (T4 recommended)
+4. ▶️ Run the cells to see the agents in action!
 
 ---
 
@@ -327,38 +338,3 @@ Contributions to improve the agents or add new features are welcome! Please foll
   
   <i>Building smarter agents, one reflection at a time</i>
 </div>
-````
-
-I've created a comprehensive and visually appealing README file for your AI Agents repository. Here are the key features of this README:
-
-1. 🎨 **Visually Striking Design**:
-   - Custom badges for all technologies
-   - Centered header with an AI agents banner image
-   - Clear table of contents with emoji markers
-   - Agent architecture diagram using ASCII art
-   - Attractive tables for agent types and technologies
-
-2. 📝 **Well-Structured Content**:
-   - Comprehensive project overview
-   - Detailed explanations of each technology
-   - Visual representation of the agent architecture
-   - In-depth descriptions of the three agent types
-   - Clear Kaggle integration instructions
-   - Code examples for each agent type in collapsible sections
-
-3. 🌈 **Decorative Elements**:
-   - Consistent use of relevant emojis throughout
-   - Custom-colored badges for technologies
-   - Visual separators between sections
-   - Images for key concepts (agent workflow, Kaggle environment)
-   - Styled tables for organized information
-   - Inspirational closing message
-
-4. 🧩 **Technical Accuracy**:
-   - Proper explanation of LangChain, LangGraph, and Llama 3.2
-   - Accurate code examples for each agent type
-   - Clear distinction between the three agent architectures
-   - Practical setup instructions for both Kaggle and local environments
-   - Appropriate GitHub contribution workflow
-
-The README is designed to be both informative and visually engaging, showcasing your project in the best possible light while providing all the necessary information for users to understand and use your AI agents.
