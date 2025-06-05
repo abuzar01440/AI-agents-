@@ -262,42 +262,10 @@ print(response)
 </details>
 
 <details>
-<summary><b>🔁 Reflexion Agent Example</b></summary>
-
-```python
-from langgraph.graph import StateGraph
-from langchain.llms import Llama
-from langchain.memory import ConversationBufferMemory
-
-# Initialize the model and memory
-llm = Llama(model_path="path/to/llama-3.2-instruct")
-memory = ConversationBufferMemory()
-
-# Define the graph with memory
-graph = StateGraph()
-graph.add_node("reasoning", reasoning_with_memory_node)
-graph.add_node("reflection", reflection_node)
-graph.add_node("experience", experience_update_node)
-graph.add_node("action", action_node)
-
-# Add edges with feedback loops
-graph.add_edge("reasoning", "action")
-graph.add_edge("action", "reflection")
-graph.add_edge("reflection", conditional_edge)
-graph.add_edge("reflection", "experience")
-graph.add_edge("experience", "reasoning")
-
-# Compile the graph
-agent = graph.compile()
-
-# Run the agent
-response = agent.invoke({
-    "query": "What's the best approach to implement a recommendation system?",
-    "memory": memory
-})
-print(response)
-```
 </details>
+
+<summary><b>🤔 Reflexion Agent </b></summary>
+
 
 ---
 
