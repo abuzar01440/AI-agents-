@@ -325,7 +325,7 @@ Contributions to improve the agents or add new features are welcome! Please foll
     <img src="https://img.shields.io/badge/Made%20with-🦙%20Llama%203.2-ff6f61?style=for-the-badge" alt="Made with Llama 3.2">
   </p>
 
-  <p>Created with 💙 by <a href="https://github.com/abuzar01440">abuzar01440</a> | Last Updated: 2025-05-30</p>
+  <p>Created with 💙 by <a href="https://github.com/abuzar01440">abuzar01440</a> | abuzarbhutta@gmail.com | abuzarbhutta.0@outlook.com Last Updated: 2025-06-06</p>
   
   <i>Building smarter agents, one reflection at a time</i>
 </div>
