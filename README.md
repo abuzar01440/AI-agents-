@@ -382,9 +382,20 @@ pip install langchain-google-genai  # For Gemini
 pip install tavily-python
 
 # Set up environment variables
-export TAVILY_API_KEY="your_tavily_key_here"
-export HUGGINGFACE_TOKEN="your_hf_token_here"
-export GOOGLE_API_KEY="your_gemini_key_here"  # For Human-in-Loop agent
+import os
+import getpass
+
+# Prompt the user for their API keys securely
+tavily_api_key = getpass.getpass("Enter your Tavily API Key: ")
+hf_token = getpass.getpass("Enter your HuggingFace Token: ")
+google_api_key = getpass.getpass("Enter your Google API Key (Gemini): ")
+
+# Set the environment variables
+os.environ["TAVILY_API_KEY"] = tavily_api_key
+os.environ["HUGGINGFACE_TOKEN"] = hf_token
+os.environ["GOOGLE_API_KEY"] = google_api_key
+
+print("Environment variables have been set successfully!")
 ```
 
 ### 🔑 **API Keys Required** 🗝️
