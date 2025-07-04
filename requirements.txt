@@ -1,0 +1,23 @@
+# Requirements for abuzar01440/AI-agents-
+# For more results or updates, visit: https://github.com/abuzar01440/AI-agents-/search?q=pip+install
+
+# Core libraries for LLMs and agent frameworks
+langgraph
+langgraph-prebuilt
+langgraph-checkpoint
+langchain
+langchain_community
+langchain_huggingface
+langchain_google_genai
+
+# Transformers and HuggingFace tools
+transformers
+huggingface_hub
+
+# Utility libraries
+python-dotenv
+torch
+tqdm
+pydantic
+os
+getpass
